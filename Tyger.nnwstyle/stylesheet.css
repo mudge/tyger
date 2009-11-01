@@ -1,4 +1,4 @@
-/* Tyger (version 3)
+/* Tyger (version 5)
  *
  * Created by Paul Mucur.
  * Inspired by Matthew Maber's "Spotlight" stylesheet.
@@ -18,7 +18,7 @@ body {
 	font: medium/1.5 "Lucida Grande", sans-serif;
 	color: #000;
 }
-h1 {
+h1#nnw_title {
 	padding: 7px 0 7px 15px;
 	background: #969696 url(tiger.png) repeat-x;
 	border-bottom: 1px solid #8C8C8C;
@@ -26,27 +26,27 @@ h1 {
   text-shadow: #fff 0 1px 1px;
 	font-size: medium;
 }
-h1 a {
+h1#nnw_title a {
 	text-decoration: none;
 	color: #000;
 }
-div#description {
+div#nnw_description {
 	padding: 0 15px;
 }
-div#description p img.right {
+div#nnw_description p img.right {
 	float: right;
 	margin: 0 0 5px 5px;
 }
-p#info {
+p#nnw_info {
 	border-bottom: 1px solid #ddd;
 	margin: 0 15px 5px;
 	padding: 5px 0;
 }
-p#info span {
+p#nnw_info span {
 	display: block;
 	margin-bottom: 2px;
 }
-p#info span:before {
+p#nnw_info span:before {
 	font-weight: bold;
 	color: #777;
   display: inline-block;
@@ -54,22 +54,22 @@ p#info span:before {
   text-align: right;
   padding-right: 0.5em;
 }
-p#info span.newsItemDate:before {
+p#nnw_info span.newsItemDate:before {
 	content: "Date: ";
 }
-p#info span.newsItemCreator:before {
+p#nnw_info span.newsItemCreator:before {
 	content: "By: ";
 }
-p#info span.newsItemCommentsLink:before {
+p#nnw_info span.newsItemCommentsLink:before {
 	content: "Comments: ";
 }
-p#info span.newsItemSource:before {
+p#nnw_info span.newsItemSource:before {
 	content: "From: ";
 }
-p#info span.newsItemSubject:before {
+p#nnw_info span.newsItemSubject:before {
 	content: "Subject: ";
 }
-div#extra p {
+div#nnw_extra p {
 	padding: 10px 20px;
 }
 blockquote {
